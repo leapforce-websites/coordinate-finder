@@ -21,7 +21,7 @@ $("img")
             Math.floor(((e.pageY - offset.top) / $(this).height()) * 10000) /
             100;
 
-        var properties = `top:${y - 4}%; left:${x - 5}%;`;
+        var properties = `top:${y - 4}%; left:${x - 3}%;`;
         $("#properties").text(properties);
         oldx = x;
         oldy = y;
